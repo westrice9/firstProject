@@ -13,12 +13,15 @@ public class Website {
     // 3
     // 4 - > Movies for children : print movies
     // 5 -> Thanks for using Movies app
+        Scanner input = new Scanner(System.in);
+//        while (input)
+
         System.out.println("Search by:");
         System.out.println("1) genre");
         System.out.println("2) director");
         System.out.println("3) year");
         System.out.println("4) is for children");
-        Scanner input = new Scanner(System.in);
+        System.out.println("5) Exit");
 
 
        // for (Movie m : Database.provide()){
